@@ -1,0 +1,24 @@
+{
+  "name": "latest-protoc-binary",
+  "version": "0.0.1",
+  "description": "Dovnload latest Protocol Compiler (protoc) pre-built binary from https://github.com/protocolbuffers/protobuf/releases.",
+  "main": "index.mjs",
+  "bin": {
+    "protoc": "bin/protoc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node ./index.mjs"
+  },
+  "keywords": [
+    "Protocol Compiler",
+    "protoc",
+    "protobuf"
+  ],
+  "author": "Zoltan Istvan KADA",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "unzipper": "^0.12.3"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "latest-protoc-binary",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Dovnload latest Protocol Compiler (protoc) pre-built binary from https://github.com/protocolbuffers/protobuf/releases.",
   "main": "index.mjs",
   "bin": {
@@ -10,6 +10,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "node ./index.mjs",
     "prepack": "rm -rf bin && mkdir bin && touch bin/protoc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kzolti/latest-protoc-binary.git"
   },
   "keywords": [
     "Protocol Compiler",

@@ -1,6 +1,6 @@
 {
   "name": "latest-protoc-binary",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dovnload latest Protocol Compiler (protoc) pre-built binary from https://github.com/protocolbuffers/protobuf/releases.",
   "main": "index.mjs",
   "bin": {
